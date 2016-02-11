@@ -1,0 +1,57 @@
+/*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+.full{
+	 background: url("../quiz.png") no-repeat center center fixed;
+	//background-color: yellow;
+	 opacity: 0.65;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	
+    
+}
+
+
+
+
+
+
+*{ margin: 0; padding: 0;  }
+body{font: 14px Georgia, serif;}
+
+						 
+						 
+
+						 
+						 
+#page-wrap{ width: 900px; margin: 0 auto;}
+
+h1{ margin: 65px 0; font: 14px Georgia, Serif; text-transform: uppercase; letter-spacing: 3px; }
+
+#quiz input {
+    vertical-align: middle ;
+}
+
+#quiz ol { background-color: #000001;
+   margin: 0 0 20px 20px;
+}
+
+#quiz ol li { 
+   margin: 0 0 20px 0;
+}
+
+#quiz ol li div { color: #ffffff;
+   padding: 4px 0;
+}
+
+#quiz h3 {
+   font-size: 17px; margin: 0 0 1px 0; color: #ffffff;
+}
+
+#results { 
+    font: 44px Georgia, Serif;
+}

@@ -1,0 +1,50 @@
+html,body{
+  height: 100%;
+}
+
+body{
+  background-color: #F9F9F9;
+}
+
+.site-wrapper{
+  display: table;
+  height: 100%;
+  width: 100%;    
+}
+
+.inner-site-wrapper{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.content{
+  /*vertical-align: middle;*/
+}
+
+.card{
+  background-color: #FFF;
+  width: 800px;
+  height: 410px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:20px;
+  /*border-radius: 5px;*/
+  box-shadow: 5px 5px 10px rgba(128,128,128,0.8);
+}
+
+.card .main-qus{
+  margin-top: 20px;
+  font-size: 22px;
+  text-align: justify;
+}
+
+.card .card-footer{
+  /*position: absolute;*/
+  margin-top: 40px; 
+  /*bottom: 0px;*/
+}
+
+.btn-outline{
+  background: rgba(0,0,0,0);
+  color: #222;
+}
